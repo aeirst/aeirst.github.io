@@ -3,6 +3,46 @@
   src: url("./fonts/AppleSDGothicNeoB.ttf");
 }
 
+@font-face {
+  font-family: "AppleSDGothicNeoRegular";
+  src: url("./fonts/AppleSDGothicNeoR.ttf");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeoUL";
+  src: url("./fonts/AppleSDGothicNeoUL.ttf");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeoExtraBlack";
+  src: url("./fonts/AppleSDGothicNeoEB.ttf");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeoLight";
+  src: url("./fonts/AppleSDGothicNeoL.ttf");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeoT";
+  src: url("./fonts/AppleSDGothicNeoT.ttf");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeoH";
+  src: url("./fonts/AppleSDGothicNeoH.ttf");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeoUL";
+  src: url("./fonts/AppleSDGothicNeoUL.ttf");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeoSB";
+  src: url("./fonts/AppleSDGothicNeoSB.ttf");
+}
+
 
 #root {
   max-width: 1280px;
@@ -12,3 +52,22 @@
   font-family: "AppleSDGothicNeoBlack";
 }
 
+.typing {
+  width: 22ch;
+  animation: typing 2s steps(20), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}

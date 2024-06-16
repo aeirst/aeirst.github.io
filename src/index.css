@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "SDNeoBlack";
-  src: url("src\\fonts\\AppleSDGothicNeoB.ttf");
-}
-
 :root {
   font-family: "AppleSDGothicNeoBlack";
   line-height: 1.5;
@@ -24,9 +19,4 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
-
-.SDGothic {
-  text-align: center;
-  font-family: 'AppleSDGothicNeoBlack';
 }
