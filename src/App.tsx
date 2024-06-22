@@ -24,7 +24,7 @@ const DarkButton = styled(Button)({
 });
 
 
-function App() {
+function MainPage() {
   return (
     <>
       <Box sx={{ width: '100%'}} >
@@ -48,4 +48,4 @@ function App() {
   )
 }
 
-export default App
+export default MainPage
