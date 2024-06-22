@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import MainPage from './App.tsx'
@@ -17,7 +16,7 @@ export const Router = () => {
 };
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
+  <>
     <Router />
-  </React.StrictMode>,
+  </>
 )

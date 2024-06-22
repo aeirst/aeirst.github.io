@@ -39,10 +39,12 @@ function MainPage() {
           <br/>
           I made <Link href="https://github.com/aeirst/lim" underline='none'>Lim</Link>, <Link href="https://github.com/aeirst/crispy" underline='none'>Crispy</Link>, <Link href="https://github.com/aeirst/simple-ui" underline='none'>Simple/ui</Link>, <Link href="https://github.com/poml-project/poml" underline='none'>Poml</Link>, <Link href="https://github.com/aeirst/depresser" underline='none'>Depresser</Link>.
         </Typography>
-        <DarkButton href="https://github.com/aeirst">Github</DarkButton>&nbsp;&nbsp;&nbsp;
-        <DarkButton href="https://docs.poml.kro.kr">Docs</DarkButton>&nbsp;&nbsp;&nbsp;
-        <DarkButton href="https://discord.poml.kro.kr">Discord</DarkButton>&nbsp;&nbsp;&nbsp;
-        <DarkButton href="https://blog.poml.kro.kr">Blog</DarkButton><br/><br/>
+        <Box>
+          <DarkButton href="https://github.com/aeirst">Github</DarkButton>&nbsp;&nbsp;&nbsp;
+          <DarkButton href="https://docs.poml.kro.kr">Docs</DarkButton>&nbsp;&nbsp;&nbsp;
+          <DarkButton href="https://discord.poml.kro.kr">Discord</DarkButton>&nbsp;&nbsp;&nbsp;
+          <DarkButton href="https://blog.poml.kro.kr">Blog</DarkButton><br/><br/>
+        </Box>
       </Box>
     </>
   )
